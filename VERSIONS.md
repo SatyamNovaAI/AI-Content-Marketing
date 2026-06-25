@@ -1,4 +1,4 @@
-# GTM Content Skills Versions
+# Marketing Content Skills Versions
 
 Current versions of all skills. Agents can compare against local versions to check for updates.
 
@@ -19,7 +19,7 @@ Current versions of all skills. Agents can compare against local versions to che
 
 ### 1.0.0 (2026-06-25)
 
-- Initial release. 10 GTM content-engineering skills: content-creator, linkedin-post, video-script,
+- Initial release. 10 marketing content skills: content-creator, linkedin-post, video-script,
   marketing-deck, proposal-deck, sop-writer, lead-gen, account-researcher, repurposing-engine,
   output-reviewer. All read `BRAND.md` + `SOUL.md` as the shared brand foundation and route through
   `output-reviewer` as the final quality gate.

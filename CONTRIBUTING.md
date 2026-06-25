@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to GTM Content Skills! This guide helps you add new skills or improve existing ones.
+Thanks for your interest in contributing to Marketing Content Skills! This guide helps you add new skills or improve existing ones.
 
 ## Adding a New Skill
 

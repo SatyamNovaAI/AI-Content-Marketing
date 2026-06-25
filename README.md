@@ -1,6 +1,6 @@
-# GTM Content Skills for AI Agents
+# Marketing Content Skills for AI Agents
 
-A focused collection of 10 AI agent skills that automate go-to-market content and pipeline work — content, video, decks, SOPs, proposals, lead-gen, and account research. Built for founders and GTM engineers who want AI agents to produce **on-brand** output, not generic filler. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+A focused collection of 10 AI agent skills that automate marketing content and pipeline work — content, video, decks, SOPs, proposals, lead-gen, and account research. Built for marketers and founders who want AI agents to produce **on-brand** output, not generic filler. Works with Claude Code, OpenAI Codex, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
 
 Built by [Jaizendra](https://www.linkedin.com/in/jaizendra/).
 
@@ -8,7 +8,7 @@ Built by [Jaizendra](https://www.linkedin.com/in/jaizendra/).
 
 ## What are Skills?
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. Add them to your project and your agent recognizes a GTM task and applies the right framework — in your voice.
+Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. Add them to your project and your agent recognizes a marketing task and applies the right framework — in your voice.
 
 ## How Skills Work Together
 
@@ -62,13 +62,13 @@ See each skill's **Related Skills** section for the full map.
 
 ```bash
 # Install all skills
-npx skills add jaizendra/gtm-content-skills
+npx skills add jaizendra/marketing-content-skills
 
 # Install specific skills
-npx skills add jaizendra/gtm-content-skills --skill content-creator linkedin-post
+npx skills add jaizendra/marketing-content-skills --skill content-creator linkedin-post
 
 # List available skills
-npx skills add jaizendra/gtm-content-skills --list
+npx skills add jaizendra/marketing-content-skills --list
 ```
 
 Installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/` for Claude Code).
@@ -76,15 +76,15 @@ Installs to your `.agents/skills/` directory (and symlinks into `.claude/skills/
 ### Option 2: Claude Code plugin
 
 ```bash
-/plugin marketplace add jaizendra/gtm-content-skills
-/plugin install gtm-content-skills
+/plugin marketplace add jaizendra/marketing-content-skills
+/plugin install marketing-content-skills
 ```
 
 ### Option 3: Clone and copy
 
 ```bash
-git clone https://github.com/jaizendra/gtm-content-skills.git
-cp -r gtm-content-skills/skills/* .agents/skills/
+git clone https://github.com/jaizendra/marketing-content-skills.git
+cp -r marketing-content-skills/skills/* .agents/skills/
 ```
 
 ## Usage

@@ -4,16 +4,16 @@ Guidelines for AI agents working in this repository.
 
 ## Repository Overview
 
-This repository contains **Agent Skills** for GTM content and pipeline work, following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.
+This repository contains **Agent Skills** for marketing content and pipeline work, following the [Agent Skills specification](https://agentskills.io/specification.md). Skills install to `.agents/skills/` (the cross-agent standard). This repo also serves as a **Claude Code plugin marketplace** via `.claude-plugin/marketplace.json`.
 
-- **Name**: GTM Content Skills
+- **Name**: Marketing Content Skills
 - **Creator**: Jaizendra
 - **License**: MIT
 
 ## Repository Structure
 
 ```
-gtm-content-skills/
+marketing-content-skills/
 ├── .claude-plugin/
 │   └── marketplace.json   # Claude Code plugin marketplace manifest
 ├── skills/                # Agent Skills (10)
@@ -91,8 +91,8 @@ description: When the user wants to write a LinkedIn post or carousel in their p
 The manifest at `.claude-plugin/marketplace.json` lists the skills for installation via:
 
 ```bash
-/plugin marketplace add jaizendra/gtm-content-skills
-/plugin install gtm-content-skills
+/plugin marketplace add jaizendra/marketing-content-skills
+/plugin install marketing-content-skills
 ```
 
 ## Git Workflow
